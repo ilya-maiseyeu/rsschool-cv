@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .nav-list {
+    list-style: none;
+  }
+
+  .nav-link-header {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 20px;
+    color: black;
+    }
+    .nav-link-header {
+    text-decoration:none; 
+   transition: 3s;
+  }
+  .nav-item{
+    color: #34a843;
+    text-decoration: none;  
+    transition: underline 1s;
+  }
+  .nav-item a:hover {
+    color:rgb(128, 240, 16) ;
+    
+    transition: 1s;
+  }
+ 
+  body{
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+  }
+  
+  .section-profile-logo{
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+  .main-container{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .section{
+    width:50%;
+  }
+
+  .section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #d7d1c9;
+    border-radius:30%;
+  }
+  .section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+  position:relative;
+  top:100px;
+  right:300px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
+}
+
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+.section-title{
+  color:#829985
+}
+.header-container{
+  background-color: #829985;
+}
+.nav-link-header {
+  color:aliceblue
+
+}
+.footer{
+  background-color:#829985;
+  height: 60px;
+
+}
+.footr-container{
+  position:relative;
+  top:20px;
+  left: 10px;
+  color:aliceblue;
+  transition:  3s;
+ 
+}
+.nav-link {
+  padding: 0 15px;
+  text-decoration: none; 
+  color: aliceblue; 
+  font-size: 17px;
+  transition: color 3s;
+ 
+}
+.nav-link a:hover {
+  color:rgb(128, 240, 16) ;
+  transition:  .3s;
+ 
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section{
+  padding-left:30px;
+}
+.section-profile-logo{
+  height: 400px;
+}
